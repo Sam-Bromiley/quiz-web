@@ -11,7 +11,7 @@ frontend:
         - npm run build
     postBuild:
       commands:
-        - npm run test -ci
+        - npm run test-ci
   artifacts:
     baseDirectory: /dist/
     files:
